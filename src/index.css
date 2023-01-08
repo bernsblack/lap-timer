@@ -1,0 +1,87 @@
+:root {
+  --color-red: rgba(194, 42, 42, 0.831);
+  --color-green: rgba(46, 159, 78, 0.831);
+  --color-primary: rgb(43, 71, 147);
+
+  --color-bg: hsl(0, 0%, 100%);
+  --color-charcoal: hsl(0, 1%, 24%);
+
+  --heigth-big: hsl(0, 10%, 29%);
+  --heigth-med: hsl(0, 10%, 29%);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+
+body {
+  font: 14px "Roboto Mono", monospace;
+  margin: 20px;
+}
+
+button {
+  font: 14px "Roboto Mono", monospace;
+}
+
+.count-block {
+  background: var(--color-bg);
+  color: var(--color-primary);
+  border: 3px solid var(--color-primary);
+  float: left;
+  font-size: 100px;
+  font-weight: bold;
+  vertical-align: middle;
+  height: 300px;
+  line-height: 300px;
+  margin-top: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.info-block {
+  background: var(--color-bg);
+  border: 3px solid var(--color-green);
+  color: var(--color-green);
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+  height: 75px;
+  line-height: 75px;
+  margin-top: 3px;
+  text-align: center;
+  width: 100%;
+}
+
+.time-block {
+  background: var(--color-bg);
+  border: 3px solid var(--color-charcoal);
+  color: var(--color-charcoal);
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+  height: 75px;
+  line-height: 75px;
+  margin-top: 3px;
+  text-align: center;
+  width: 100%;
+}
+
+.fastest-block {
+  background: var(--color-bg);
+  border: 3px solid var(--color-red);
+  color: var(--color-red);
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+  height: 75px;
+  line-height: 75px;
+  /* margin-right: -1px; */
+  margin-top: 3px;
+  text-align: center;
+  width: 100%;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
