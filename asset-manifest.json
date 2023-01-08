@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lap-timer/static/css/main.d244b657.css",
+    "main.js": "/lap-timer/static/js/main.5486ab48.js",
+    "index.html": "/lap-timer/index.html",
+    "main.d244b657.css.map": "/lap-timer/static/css/main.d244b657.css.map",
+    "main.5486ab48.js.map": "/lap-timer/static/js/main.5486ab48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d244b657.css",
+    "static/js/main.5486ab48.js"
+  ]
+}
